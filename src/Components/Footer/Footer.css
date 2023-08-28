@@ -3,6 +3,7 @@
     bottom: 0;
     background-color: #000;
     width: 100vw;
+    height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
