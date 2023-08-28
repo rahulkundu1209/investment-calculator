@@ -42,11 +42,11 @@ const InputGroup = (props) =>{
       <div>
         <div className="input-group">
           <p>
-            <label htmlFor="current-savings">Current Savings ($)</label>
+            <label htmlFor="current-savings">Current Savings (&#8377;)</label>
             <input type="number" id="current-savings" onChange={currentSavingsChangeHandler}/>
           </p>
           <p>
-            <label htmlFor="yearly-contribution">Yearly Savings ($)</label>
+            <label htmlFor="yearly-contribution">Yearly Savings (&#8377;)</label>
             <input type="number" id="yearly-contribution" onChange={yearlyContributionChangeHandler}/>
           </p>
         </div>

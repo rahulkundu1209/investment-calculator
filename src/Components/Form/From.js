@@ -100,11 +100,11 @@ const  From = (props) => {
     <form className="form" onSubmit={submitHandler} onReset={resetHandler}>
         <div className="input-group">
           <p>
-            <label htmlFor="current-savings">Current Savings ($)</label>
+            <label htmlFor="current-savings">Current Savings (&#8377;)</label>
             <input type="number" id="current-savings" value={enteredCurrentSavings} onChange={currentSavingsChangeHandler}/>
           </p>
           <p>
-            <label htmlFor="yearly-contribution">Yearly Savings ($)</label>
+            <label htmlFor="yearly-contribution">Yearly Savings (&#8377;)</label>
             <input type="number" id="yearly-contribution" value={enteredYearlyContribution} onChange={yearlyContributionChangeHandler}/>
           </p>
         </div>
