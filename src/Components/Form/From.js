@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Form.css';
-import InputGroup from './InputGroup';
+
 const formatter = new Intl.NumberFormat('en-IN', {
   style: 'currency',
   currency: 'INR',
